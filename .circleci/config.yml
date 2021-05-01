@@ -11,4 +11,5 @@ jobs:
       - checkout
       - run: ls
       - run: TProject1/cm.exe selenoid start --vnc
+      - run: TProject1/selenoid.exe
       - run: dotnet build
